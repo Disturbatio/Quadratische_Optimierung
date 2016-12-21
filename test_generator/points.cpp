@@ -15,19 +15,19 @@ using namespace std;
 //defining constants for coefficients values range
 const int LOWC=-10;
 const int HIGHC=10;
-const int RANGEC=HIGHC-LOWC;
+const unsigned int RANGEC=HIGHC-LOWC;
 
 //defining constants for x values range
 const int LOWX=-10;
 const int HIGHX=10;
-const int RANGEX=HIGHX-LOWX;
+const unsigned int RANGEX=HIGHX-LOWX;
 
 //value of maximal difference between real and generated y value
 //DIST=0 for exact y values
-const double DIST=0.2;
+const unsigned double DIST=0.2;
 
 //number of digits after decimal in generated variables
-const int PRECISION=2;
+const unsigned short int PRECISION=2;
 
 int main(int argc, const char * argv[]) {
     if (argc==4)

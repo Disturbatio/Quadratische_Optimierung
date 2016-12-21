@@ -24,7 +24,7 @@ const unsigned int RANGEX=HIGHX-LOWX;
 
 //value of maximal difference between real and generated y value
 //DIST=0 for exact y values
-const unsigned double DIST=0.2;
+const double DIST=0.2;
 
 //number of digits after decimal in generated variables
 const unsigned short int PRECISION=2;

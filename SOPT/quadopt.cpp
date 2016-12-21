@@ -10,7 +10,7 @@
 #include <iostream>
 using namespace std;
 
-static int PRECISION=NULL; //digits after decimal in result coefficients; set NULL for default double precision
+static unsigned short int PRECISION=NULL; //digits after decimal in result coefficients; set NULL for default double precision
 
 double** makeA(int n, int k, double* x){
 
@@ -145,9 +145,3 @@ int main() {
         cout<<coeffs[i]<<endl;
     return 0;
 }
-
- 
- 
- 
-
-

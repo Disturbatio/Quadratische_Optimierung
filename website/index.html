@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="res/stylesheet.css">
+<title>Front Page</title></head>
+<style>
+
+</style>
+
+<body onload="load_welcome()">
+<div id="container">
+    <div id="headline">
+        <h1>Quadratische Optimierung: Ausgleichspolynom</h1>
+    </div>
+    <nav id="navigation">
+        <ul>
+        
+        <div><button onclick="load_artikel0()">Link0</button></div>
+        <div><button>Link1</button></div>
+        <div><button>Link2</button></div>
+        <div><button>Link3</button></div>
+        <div><button id="last">Link4</button></div>
+        
+        </ul>
+    </nav>
+    
+    <p id="content" onload="load_artikel0()"></p>
+</div>
+<script>
+        function load_welcome(){
+           document.getElementById("content").innerHTML='<object type="text/html" data="welcome.html" ></object>';
+        }
+        function load_artikel0(){
+           document.getElementById("content").innerHTML='<object type="text/html" data="artikel0.html" ></object>';
+        }
+    </script> 
+</body>
+</html>

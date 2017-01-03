@@ -1,0 +1,65 @@
+<style>
+*{
+    font-family: Verdana;
+    text-align: justify;
+    line-height: 150%;
+}
+p{
+    font-size: 20px;
+}
+</style>
+
+<h1>Ausgleichspolynom: Theorie</h1>
+
+<div>
+    <p style="float:right"><img src="res/example/pol_example.png" height="250" width="250"></p>
+    <p> 
+	Bei der Berechnung des Ausgleichspolynoms möchte man ausgehend von einem Datensatz mit n Daten der Form (x,y)
+	das Polynom finden welches einen möglichst geringen Abstand zu allen Punkten die durch den Datensatz beschrieben wurden aufweist.
+	</p>
+</div>
+<p>
+	Wie können wir das tun? 
+</p>
+
+<p>
+	Wir wissen das ein Polynom als eine Funktion auf eine Funktion auf x ausgedrückt werden kann. Diese Funktion auf x bestimmt eine y Variable.
+	Da wir über mehrere x und y Werte werte verfgen, können wir diese Funktion wie folgt ausdrücken:
+</p>
+	
+<img src="res/example/px_y.png" >
+	
+<p>
+	Auch ist zu beachten das wir in unserem Fall davon ausgehen das p(x) die allgemeine Form eines Polynoms aufweist. 
+	Was also bei einem Polyom 2. Grades so ausehen würde:
+</p>
+	
+<img src="res/example/gen_quad.png" >
+	
+<p>
+	Normalerweise könnte man nun den y Wert auf die linke Seite der Gleichung bringen und den Term gleich Null setzen.
+	Da wir aber wissen das wir kein Polynom suchend as alle Punkte tatsächlich schneidet, sondern das Polynom das den
+	geringsten Abstand zu jedem Punkt aufweist, können wir davon ausgehen das:
+</p>
+	
+<img src="res/example/px-y0.png" >
+	
+<p>
+	Davon ausgehend bestimmen wir den Wert v an der Stelle i als Varianz, da er den Abstand zum y Wert an der Stelle x darstellt.
+</p>
+	
+<img src="res/example/vi.png" >
+	
+<p>
+	Nun können mit Hilfe dises Wertes die Summe der Kleinsten Quadrate bilden um die Koeffizienten des gesuchten Polynoms zu ermitteln.
+	Hierzu bilden wir die Summe aller Quadrate von v. 
+</p>
+	
+<img src="res/example/sum_v.png" >
+	
+<p>
+	Hat man diese Summe berechnet so kann man von dieser Summe den Gradienten bilden und mit Hilfe dessen ein Gleichungsystem erzeugen,
+	dessen Lösung die Werte der Koeffizienten des gesuchten Polynoms sind. 
+</p>
+	
+	

@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="res/stylesheet.css">
-<title>Front Page</title></head>
+<title>Ausgleichsppolynom</title></head>
 <style>
 
 </style>
@@ -15,11 +15,11 @@
     <nav id="navigation">
         <ul>
         
-        <div><button onclick="load_artikel0()">Link0</button></div>
-        <div><button>Link1</button></div>
-        <div><button>Link2</button></div>
-        <div><button>Link3</button></div>
-        <div><button id="last">Link4</button></div>
+        <div><button onclick="load_welcome()">Willkommen</button></div>
+        <div><button onclick="load_theory()">Theorie</button></div>
+        <div><button onclick="load_example()">Beispiel</button></div>
+        <div><button onclick="load_error()">Link3</button></div>
+        <div><button id="last" onclick="load_other()">Andere Software</button></div>
         
         </ul>
     </nav>
@@ -30,8 +30,17 @@
         function load_welcome(){
            document.getElementById("content").innerHTML='<object type="text/html" data="welcome.html" ></object>';
         }
-        function load_artikel0(){
-           document.getElementById("content").innerHTML='<object type="text/html" data="artikel0.html" ></object>';
+        function load_theory(){
+           document.getElementById("content").innerHTML='<object type="text/html" data="theory.html" ></object>';
+        }
+        function load_example(){
+           document.getElementById("content").innerHTML='<object type="text/html" data="example.html" ></object>';
+        }
+        function load_other(){
+           document.getElementById("content").innerHTML='<object type="text/html" data="other.html" ></object>';
+        }
+        function load_error(){
+           document.getElementById("content").innerHTML='<object type="text/html" data="nocontent.html" ></object>';
         }
     </script> 
 </body>

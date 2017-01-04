@@ -18,7 +18,8 @@
         <div><button onclick="load_welcome()">Willkommen</button></div>
         <div><button onclick="load_theory()">Theorie</button></div>
         <div><button onclick="load_example()">Beispiel</button></div>
-        <div><button onclick="load_error()">Link3</button></div>
+        <div><button onclick="load_alternative()">Alternative Lösungsverfahren</button></div>
+        <div><button onclick="load_error()">Link4</button></div>
         <div><button id="last" onclick="load_other()">Andere Software</button></div>
         
         </ul>
@@ -38,10 +39,14 @@
         }
         function load_other(){
            document.getElementById("content").innerHTML='<object type="text/html" data="other.html" ></object>';
+        } 
+        function load_alternative(){
+           document.getElementById("content").innerHTML='<object type="text/html" data="alternative.html" ></object>';
         }
         function load_error(){
            document.getElementById("content").innerHTML='<object type="text/html" data="nocontent.html" ></object>';
         }
+        
     </script> 
 </body>
 </html>

@@ -1,0 +1,19 @@
+Tutorial quad_op0.1
+
+es gibt 4 Menuepunkte
+  1) generate Testfiles - zuerst Name des Files angeben - Endung wird automatisch hinzugefuegt
+    optionales Plotten fehlt noch
+  2) ist nur fuer Testzwecke gedacht - werde ich aber aus der finalen Version entfernen
+  3) errechnet die Parameter und schreibt sie in ein file mit dem namen <filename wo die Punkte gespeichert sind>_result.txt
+  4) erstellt ein gnuplot script das die Punkte und die resultierende Kurve anzeigt, dieses script muss dann ausserhalb des Programms mit gnuplot <filename wo die Punkte gespeichert sind>.gnu aufgerufen werden
+  
+todo: 
+  1. Testausgaben entfernen und in eventuelles logfile schreiben
+  2. direkter gnuplot zugang im Programm, gnuplot scriptfile soll sicherheitshalber zusaetzlich gespeichert werden
+  3. automatisches berechnen und gnuplot Ausgabe wenn ein Testfile erzeugt wird
+  4. Fehleingaben abfangen
+  
+Ich bin mir nicht sicher ob die Testpunkte und Kurve richtig dargestellt werden da bei mir eine relativ große Distanz entsteht.
+
+  
+  

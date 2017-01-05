@@ -12,6 +12,7 @@ todo:
   2. direkter gnuplot zugang im Programm, gnuplot scriptfile soll sicherheitshalber zusaetzlich gespeichert werden
   3. automatisches berechnen und gnuplot Ausgabe wenn ein Testfile erzeugt wird
   4. Fehleingaben abfangen
+  5. Kommandozeilenaufruf fuer alle Funktionen
   
 Ich bin mir nicht sicher ob die Testpunkte und Kurve richtig dargestellt werden da bei mir eine relativ große Distanz entsteht.
 

@@ -1,4 +1,5 @@
 Tutorial quad_op0.1
+compiliert es bitte mit c++14
 
 es gibt 4 Menuepunkte
   1) generate Testfiles - zuerst Name des Files angeben - Endung wird automatisch hinzugefuegt

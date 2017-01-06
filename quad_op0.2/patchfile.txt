@@ -1,0 +1,3 @@
+logfile added
+added decision to call plot in generate testfile
+added comments

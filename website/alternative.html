@@ -10,22 +10,83 @@ p{
 
 </style>
 
-<h1> Verfahren zum Lösen Linearer Gleichungssysteme </h1>
+<h1> Verfahren zum L&oumlsen Linearer Gleichungssysteme </h1>
 
 <p>
-	Cramersche Regel:
+    <b><u>Conjugated Gradients</u></b>
+</p>
+
+<p>
+    Algorithmus<br>
+    Zu Beginn des Conjugated Gradients Verfahrens gilt es die Anfangswerte zu bestimmen. Hierbei nehmen wir an das:
+</p>
+
+<img src="res/cg/cg1.png">
+
+<p>
+    Dann iterieren wir &uumlber diese Werte mit folgenden Formeln
+</p>
+
+<img src="res/cg/cg2.png">
+
+<p>
+    Erreicht man den Iterationsschritt an dem r<sub>k</sub> oder k + 1 = n, so ist x<sub>k+1</sub> die L&oumlsung <br>
+    Zur Berechnung der neuen Suchrichtung ben&oumltigt man:
+</p>
+<img src="res/cg/cg3.png">
+
+<p>
+    Beispiel:<br>
+    Gegeben sei:
+</p>
+<img src="res/cg/cg4.png">
+
+<p>
+    Die Anfangswerte lauten also:
+</p>
+<img src="res/cg/cg5.png">
+
+<p>
+    Es folgt der erste Iterationsschritt:
+</p>
+<img src="res/cg/cg6.png">
+<p>
+    Da hier r<sub>1</sub> &ne 0 und k + 1 < n berechnen wir die neue Suchrichtung
+</p>
+<img src="res/cg/cg7.png">
+
+<p>
+    Und es folgt der n&aumlchste Iterationsschritt
+</p>
+<img src="res/cg/cg8.png">
+
+<p>
+    Hier ist nun k + 1 = n woraus folgt das x<sub>2</sub> die L&oumlsung ist.
+</p>
+
+<p>
+    Wir k&oumlnnen dies &uumlberpr&uumlfen:
+</p>
+<img src="res/cg/cg9.png">
+
+<p>
+    Wir sehen das unsere berechnung korrekt war.
+</p>
+
+<p>
+	<b><u>Cramersche Regel:</u></b>
 
 </p>
 
-
 <p>
-	Um mit der Cramerschen Regel ein lineares Gleichungssystem zu lösen wird zuerst für x1 die erste Spalte der Matrix durch die rechte Seite des Gleichungssystems ersetzt. Für x2 wird die zweite Spalte ersetzt und die Determinanten der neu entstandenen Matrix und der ursprünglichen Matrix werden dividiert. 
+	Um mit der Cramerschen Regel ein lineares Gleichungssystem zu test l&oumlsen wird zuerst f&uumlr x1 die erste Spalte der Matrix durch die rechte Seite des Gleichungssystems ersetzt. F&uumlr x2 wird die zweite Spalte ersetzt und die 
+    Determinanten der neu entstandenen Matrix und der urspr&uumlnglichen Matrix werden dividiert. 
 </p>
 
 <img src="res/example/Cramer.png" >
 
 <p>
-	Kehrmatrix:
+	<b><u>Kehrmatrix:</u></b>
 
 </p>
 

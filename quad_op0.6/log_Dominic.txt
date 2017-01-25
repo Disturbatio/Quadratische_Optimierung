@@ -1,0 +1,29 @@
+Wed Jan 25 13:06:54 2017
+-logfile created
+Program started in menu
+Wed Jan 25 13:07:19 2017
+ function: test_gen
+Wed Jan 25 13:07:19 2017
+ Wrong Input - Number of points were smaller than the polynomial degree
+Wed Jan 25 13:07:32 2017
+ Program started in menu
+Wed Jan 25 13:07:40 2017
+ function: test_gen
+Wed Jan 25 13:07:40 2017
+ Wrong Input - Number of points were smaller than the polynomial degree
+Wed Jan 25 13:07:44 2017
+ Program started in menu
+Wed Jan 25 13:07:54 2017
+ function: test_gen
+Wed Jan 25 13:07:54 2017
+ Wrong Input - Number of points were smaller than the polynomial degree
+Wed Jan 25 13:08:05 2017
+ Program started in menu
+Wed Jan 25 13:08:10 2017
+ function: test_gen
+Wed Jan 25 13:08:10 2017
+ Wrong Input - Number of points were smaller than the polynomial degree
+Wed Jan 25 13:08:13 2017
+ function: test_gen
+Wed Jan 25 13:08:13 2017
+ Wrong Input - Number of points were smaller than the polynomial degree

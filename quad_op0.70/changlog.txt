@@ -1,0 +1,2 @@
+catch input errors and if possible corrects it
+moved random Generator from main to a seperate function

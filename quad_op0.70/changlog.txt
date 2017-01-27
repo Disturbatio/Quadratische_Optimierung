@@ -1,0 +1,3 @@
+catch input errors and if possible corrects it
+moved random Generator from main to a seperate function
+fixed segmentation fault in random Generator with degree higher 2

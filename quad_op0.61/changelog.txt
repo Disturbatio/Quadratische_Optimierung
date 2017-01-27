@@ -1,0 +1,2 @@
+fixed error in 'generate testfiles'
+added title to gnuscript

@@ -1,0 +1,119 @@
+Wed Jan 25 16:34:40 2017
+-logfile created
+Program started in menu
+Wed Jan 25 16:34:53 2017
+ function: test_gen
+Wed Jan 25 16:34:53 2017
+ test_gen Result von Gleichung vom Grad:5 Anzahl Punkte:10
+Wed Jan 25 16:35:05 2017
+ Program started in menu
+Wed Jan 25 16:35:16 2017
+ function: test_gen
+Wed Jan 25 16:35:16 2017
+ test_gen Result von Gleichung vom Grad:2 Anzahl Punkte:10
+Wed Jan 25 16:35:16 2017
+ random coeffs: 2.240000 0.710000 -0.036667 
+Volitional error is between +- 12.500000
+Random Values: 
+x: -1.384983
+y: 13.380775
+x: 4.740511
+y: 9.887837
+x: -3.227710
+y: -2.703633
+x: -5.560026
+y: 6.935828
+x: -8.097609
+y: 3.119087
+x: -1.665120
+y: 8.907421
+x: 10.916804
+y: 0.875301
+x: -6.921339
+y: -14.902458
+x: -6.858757
+y: -5.224356
+x: -3.742536
+y: -7.521173
+Wed Jan 25 16:35:16 2017
+ function optimize: filename: asddsa
+Wed Jan 25 16:35:16 2017
+  grad=2
+Wed Jan 25 16:35:16 2017
+ optimize: successfully opended infile
+Wed Jan 25 16:35:16 2017
+ called polyfit
+Wed Jan 25 16:35:16 2017
+ called linesolve
+Wed Jan 25 16:35:16 2017
+ optimize: successfully opened resultfile
+7.190000
+0.790000
+-0.110000
+Wed Jan 25 16:35:16 2017
+ optimize: Successfully optmizied
+Wed Jan 25 16:35:24 2017
+ plot: coeffs for gnufile are: 
+7.190000 0.790000 -0.110000 
+Wed Jan 25 16:35:24 2017
+ plot: created GnuScriptfile named asddsa.gnu
+Wed Jan 25 16:35:24 2017
+ processgnufile: asddsa showpic:true
+Wed Jan 25 16:35:24 2017
+ processgnufile: successfully executed command was:gnuplot asddsa.gnu
+Wed Jan 25 16:35:25 2017
+ processgnufile: successfully executed command was:xdg-open asddsa.png
+Wed Jan 25 16:35:48 2017
+ function: test_gen
+Wed Jan 25 16:35:48 2017
+ test_gen Result von Gleichung vom Grad:5 Anzahl Punkte:20
+Wed Jan 25 16:35:48 2017
+ random coeffs: 1.580000 1.922500 -0.573333 -0.441250 0.302400 0.220833 
+Volitional error is between +- 12.500000
+Random Values: 
+x: 6.583805
+y: 3162.891351
+x: -1.730338
+y: 0.287214
+x: 14.891978
+y: 175052.389968
+x: 1.012369
+y: 10.867761
+x: 18.612890
+y: 526616.447790
+Wed Jan 25 16:35:51 2017
+ Program started in menu
+Wed Jan 25 16:36:03 2017
+ function: test_gen
+Wed Jan 25 16:36:03 2017
+ test_gen Result von Gleichung vom Grad:6 Anzahl Punkte:20
+Wed Jan 25 16:36:06 2017
+ Program started in menu
+Wed Jan 25 16:36:24 2017
+ function: test_gen
+Wed Jan 25 16:36:24 2017
+ test_gen Result von Gleichung vom Grad:4 Anzahl Punkte:10
+Wed Jan 25 16:36:29 2017
+ Program started in menu
+Wed Jan 25 16:36:43 2017
+ function: test_gen
+Wed Jan 25 16:36:43 2017
+ test_gen Result von Gleichung vom Grad:3 Anzahl Punkte:10
+Wed Jan 25 16:37:30 2017
+ Program started in menu
+Wed Jan 25 16:37:39 2017
+ function: test_gen
+Wed Jan 25 16:37:39 2017
+ test_gen Result von Gleichung vom Grad:5 Anzahl Punkte:20
+Wed Jan 25 16:38:11 2017
+ Program started in menu
+Wed Jan 25 16:38:23 2017
+ function: test_gen
+Wed Jan 25 16:38:23 2017
+ test_gen Result von Gleichung vom Grad:5 Anzahl Punkte:50
+Wed Jan 25 16:38:48 2017
+ Program started in menu
+Wed Jan 25 16:39:32 2017
+ function: test_gen
+Wed Jan 25 16:39:32 2017
+ test_gen Result von Gleichung vom Grad:3 Anzahl Punkte:30

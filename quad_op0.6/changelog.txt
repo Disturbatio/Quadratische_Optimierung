@@ -1,0 +1,2 @@
+added processgnufile
+added boundaries for degree and number of points
